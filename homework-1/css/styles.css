@@ -1,0 +1,44 @@
+:root {
+  --color-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+}
+/*global styles*/
+body {
+  color: var(--color-primary-dark);
+}
+ul {
+  list-style-type: none;
+}
+
+/*button styles*/
+.button-call {
+  color: #ffffff;
+  background-color: var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+.button-call:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+  border-width: 2px;
+  border-color: var(--color-primary-light);
+}
+
+/*menu styles*/
+.menu-link {
+  color: var(--color-primary-light);
+}
+.menu-link:hover {
+  color: var(--color-primary-dark);
+}
+
+/*titles styles*/
+.hero-title {
+  color: var(--color-primary-light);
+}
+.section-title {
+  color: var(--color-primary-dark);
+}
+.section-title .accent {
+  color: var(--color-primary-light);
+}
