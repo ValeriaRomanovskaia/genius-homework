@@ -201,21 +201,22 @@
                 подарунок
               </p>
                <form name="contact-form" autocomplete="off">
-<div class="form-field">        <label class="form-label visually-hidden" for="user-name">Ваше ім'я та прізвище</label>
-        <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Ваше ім'я та прізвище"></div>
+<div class="form-field">        <label class="form-label visually-hidden" for="user-name-cont">Ваше ім'я та прізвище</label>
+        <input class="form-input" type="text" name="user-name-cont" id="user-name-cont" placeholder="Ваше ім'я та прізвище" required minlength="2" pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+S"></div>
 
-       <div class="form-field"> <label class="form-label visually-hidden" for="user-tel">Ваш номер телефону</label>
-        <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Ваш номер телефону">
+       <div class="form-field"> <label class="form-label visually-hidden" for="user-tel-cont">Ваш номер телефону</label>
+        <input class="form-input" type="tel" name="user-tel-cont" id="user-tel-cont" placeholder="Ваш номер телефону" required pattern="^\+[0-9]{12}">
 </div>
-     <div class="form-field">   <label class="form-label visually-hidden" for="user-email">Ваша електронна пошта</label>
-        <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Ваша електронна пошта"></div>
-      </form>
+     <div class="form-field">   <label class="form-label visually-hidden" for="user-email-cont">Ваша електронна пошта</label>
+        <input class="form-input" type="email" name="user-email-cont" id="user-email-cont" placeholder="Ваша електронна пошта" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"></div>
+      
               <button type="submit" class=" form-button button-call-modal">
                 Записатись безкоштовно
               </button>
               <p class="small-modal-text">
                 Натискаючи на кнопку я погоджуюсь з <a class="form-politics" href="#">політикою конфіденційності</a>
               </p>
+              </form>
             </div>
           </div>
         </div>
@@ -294,13 +295,13 @@
       <form name="modal-form" autocomplete="off">
 <div class="form-field">        
   <label class="form-label visually-hidden" for="user-name">Ваше ім'я та прізвище</label>
-        <input class="form-input" type="text" id="user-name" placeholder="Ваше ім'я та прізвище" required minlength="2" pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+S"></div>
+        <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Ваше ім'я та прізвище" required minlength="2" pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+S"></div>
 
        <div class="form-field"> <label class="form-label visually-hidden" for="user-tel">Ваш номер телефону</label>
-        <input class="form-input" type="tel" id="user-tel" placeholder="Ваш номер телефону" required pattern="^\+[0-9]{12}"></div>
+        <input class="form-input" type="tel" name="user-tel" id="user-tel" placeholder="Ваш номер телефону" required pattern="^\+[0-9]{12}"></div>
      <div class="form-field"> 
       <label class="form-label visually-hidden" for="user-email">Ваша електронна пошта</label>
-        <input class="form-input" type="email"  id="user-email" placeholder="Ваша електронна пошта" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"></div>
+        <input class="form-input" type="email" name="user-email" id="user-email" placeholder="Ваша електронна пошта" required pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"></div>
      
        <button type="submit" class="form-button button-call-modal">
                 Записатись безкоштовно
