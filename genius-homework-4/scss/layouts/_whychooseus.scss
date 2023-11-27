@@ -1,0 +1,59 @@
+.whychooseus {
+  display: flex;
+  justify-content: center;
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: $br-desktop) {
+      display: flex;
+      gap: 56px;
+      flex-basis: 316px;
+      flex-direction: row;
+    }
+  }
+  &__item {
+    display: block;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    width: 316px;
+    height: 181px;
+    text-align: center;
+    padding: 24px;
+    transition: transform 0.2s;
+
+    @media screen and (min-width: $br-desktop) {
+      display: block;
+      background-color: #ffffff;
+      border-radius: 32px;
+      width: 316px;
+      height: 181px;
+      text-align: center;
+      padding: 24px;
+      transition: transform 0.2s;
+    }
+  }
+  &__item:hover {
+    transform: scale(1.1);
+  }
+  &__background {
+    margin-top: 70px;
+    background-image: url('../image/backgroundwhychooseus.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+  }
+  &__title {
+    margin-bottom: 48px;
+    margin-top: 176px;
+    text-align: center;
+  }
+  &__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

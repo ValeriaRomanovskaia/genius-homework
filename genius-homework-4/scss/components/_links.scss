@@ -1,0 +1,45 @@
+.menu-link {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  transition: color 0.2s;
+}
+.menu-link:hover {
+  font-family: Roboto, Arial, sans-serif;
+  text-decoration: none;
+  color: var(--color-primary-light);
+}
+.menu-link-footer {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu-link-footer:hover {
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--color-primary-light);
+}
+.adress-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  font-style: normal;
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.2s;
+}
+.adress-link:hover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--color-primary-light);
+}

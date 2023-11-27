@@ -1,0 +1,73 @@
+.header {
+  background-color: rgba(255, 255, 255, 0.25);
+  background-size: 100%;
+  padding: 32px;
+
+  @media screen and (min-width: $br-desktop) {
+    background-color: transparent;
+  }
+
+  &__background {
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 720px;
+
+    @media screen and (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url('../image/background@2x.jpg');
+    }
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 40px;
+  }
+
+  &__menu {
+    display: none;
+
+    @media screen and (min-width: $br-desktop) {
+      display: flex;
+      gap: 56px;
+      flex-grow: 1;
+      justify-content: center;
+    }
+  }
+
+  &__icons {
+    display: none;
+    @media screen and (min-width: $br-desktop) {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      width: 32px;
+      height: 32px;
+      fill: #011c44;
+    }
+  }
+  &__logo {
+    flex-basis: 74px;
+    height: 42px;
+  }
+  &__burger {
+    fill: rgba(255, 255, 255, 1);
+    background-color: transparent;
+    border: none;
+    padding: 0;
+
+    @media screen and (min-width: $br-desktop) {
+      display: none;
+    }
+  }
+}

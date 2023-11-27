@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 32px;
+
+  &__button {
+    width: 11px;
+    height: 11px;
+    padding: 0;
+    background: rgba(116, 114, 114, 1);
+    border-radius: 50%;
+
+    &--active {
+      background-color: var(--color-primary-light);
+    }
+  }
+}

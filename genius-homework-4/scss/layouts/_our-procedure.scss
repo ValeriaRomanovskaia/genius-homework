@@ -1,0 +1,25 @@
+.prosedures-section {
+  &__slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0 auto;
+  }
+
+  &__container {
+    overflow: hidden;
+    margin-top: 0 auto;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+  &__button {
+    display: none;
+
+    @media screen and (min-width: $br-desktop) {
+      display: flex;
+    }
+  }
+}

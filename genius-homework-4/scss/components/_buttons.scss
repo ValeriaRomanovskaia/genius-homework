@@ -1,0 +1,110 @@
+.button-call {
+  padding: 16px 32px;
+  margin-bottom: 14px;
+}
+.button-call {
+  color: #ffffff;
+  background-color: var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 16px 32px;
+
+  @media screen and (min-width: $br-desktop) {
+    color: #ffffff;
+    background-color: var(--color-primary-light);
+    border-radius: 32px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-left: 205px;
+  }
+}
+.button-call:hover {
+  color: var(--color-primary-dark);
+  background-color: transparent;
+  border-width: 2px;
+  border-color: var(--color-primary-light);
+}
+
+.carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: var(--color-primary-dark);
+  background-color: transparent;
+  cursor: pointer;
+  fill: #011c44;
+}
+
+.carousel-button:hover {
+  background-color: #2b7fff;
+  fill: #ffffff;
+}
+.carousel-button.next {
+  transform: rotate(180deg);
+}
+.button-call-contact-form {
+  font-size: 16px;
+  padding: 16px 24px;
+  border-radius: 24px;
+  gap: 10px;
+  margin: 0 auto;
+
+  @media screen and (min-width: $br-desktop) {
+    color: #ffffff;
+    background-color: var(--color-primary-light);
+    border-radius: 32px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 16px 32px;
+    margin-left: 205px;
+  }
+}
+.button-call-contact-form:hover {
+  color: white;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: var(--color-primary-light);
+}
+.button-call-modal {
+  color: #ffffff;
+  background-color: var(--color-primary-light);
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 32px;
+  margin: 0 auto;
+}
+.button-call-modal:hover {
+  color: white;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: var(--color-primary-light);
+}
+.form-button {
+  display: block;
+  margin: 24px auto 8px auto;
+}
+
+.modal-btn-close {
+  position: absolute;
+  top: 42px;
+  right: 42px;
+}
+
+.menu-btn-close {
+  position: absolute;
+  top: 42px;
+  right: 42px;
+}

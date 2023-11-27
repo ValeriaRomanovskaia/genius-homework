@@ -1,0 +1,50 @@
+.hero-section {
+  padding-top: 16px;
+
+  &__title {
+    color: var(--color-primary-light);
+    font-family: 'Play', sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 0.8;
+    margin-bottom: 32px;
+    text-align: center;
+
+    @media screen and (min-width: $br-desktop) {
+      font-size: 140px;
+      margin-bottom: 40px;
+      max-width: 529px;
+      padding-left: 205px;
+    }
+  }
+
+  &__button {
+    text-align: center;
+    @media screen and (min-width: $br-desktop) {
+      text-align: left;
+    }
+  }
+  &__text {
+    font-size: 11px;
+    max-width: 186px;
+    margin: 0 auto;
+
+    @media screen and (min-width: $br-desktop) {
+      font-size: 12px;
+      padding-left: 205px;
+      text-align: left;
+      margin-left: 0;
+      margin-right: 0;
+      max-width: 443px;
+    }
+  }
+  &__name {
+    text-align: center;
+
+    @media screen and (min-width: $br-desktop) {
+      margin-bottom: 16px;
+      padding-left: 205px;
+      text-align: left;
+    }
+  }
+}

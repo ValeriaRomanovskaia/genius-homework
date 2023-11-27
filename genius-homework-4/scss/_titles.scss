@@ -1,0 +1,10 @@
+.section-title {
+  font-size: 32px;
+  @media screen and (min-width: $br-desktop) {
+    color: var(--color-primary-dark);
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+}
