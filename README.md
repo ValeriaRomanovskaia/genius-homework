@@ -2,5 +2,5 @@
 [Homework 2](https://valeriaromanovskaia.github.io/genius-homework/genius-homework-2/)<br>
 [Homework 3](https://valeriaromanovskaia.github.io/genius-homework/genius-homework-3/)<br>
 [Homework 4](https://valeriaromanovskaia.github.io/genius-homework/genius-homework-4/)<br>
-[JS Homework 1](https://valeriaromanovskaia.github.io/genius-homework/JS-HOMEWORK/)<br>
+[JS Homework](https://valeriaromanovskaia.github.io/genius-homework/JS-HOMEWORK/)<br>
 [Final project] COMING SOON
