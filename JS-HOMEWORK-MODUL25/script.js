@@ -91,14 +91,18 @@
 // 3) jrange 89. 3,4
 
 // НЕ ЗРОЗУМІЛА ЯК ВИКОНАТИ ПЕРЕВІД В ЦІФРУ І МНОЖЕННЯ
+
+// let cost = parseFloat(price) * parseFloat(weight);
+
 // const infoProduct = {
 //   name: "banana",
 //   price: "30",
 //   weight: "4,5",
 
 //   showInfo: function () {
-//     console.log("Product: " + this.name);
+//     console.log("Product: " + this.name + " Cost: ");
 //   },
 // };
 
+// cost = parseFloat(price) * parseFloat(weight);
 // infoProduct.showInfo();
