@@ -9,4 +9,5 @@
 [JS Homework.Modul 26](https://valeriaromanovskaia.github.io/genius-homework/JS-HOMEWORK-MODUL26/)<br>
 [JS Homework.Modul 27](https://valeriaromanovskaia.github.io/genius-homework/JS-HOMEWORK-MODUL27/)<br>
 [JS Homework.Modul 28](https://valeriaromanovskaia.github.io/genius-homework/JS-HOMEWORK-MODUL28/)<br>
+[JS Homework.Modul 29](https://valeriaromanovskaia.github.io/genius-homework/JS-HOMEWORK-MODUL29/)<br>
 [Final project] COMING SOON
