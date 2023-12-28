@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonhide {
+  width: 300px;
+  height: 30px;
+  margin: 20px;
+  padding: 0 auto;
+  color: white;
+  background-color: blue;
+}
+.buttonhide:hover {
+  background-color: rgb(255, 255, 255);
+  color: blue;
+  border-color: blue;
+}
